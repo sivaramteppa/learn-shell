@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echho "please enter your name::"
+echo "please enter your name::"
 read USER_NAME
 
 echo "please enter your password::"
