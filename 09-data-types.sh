@@ -5,7 +5,6 @@ var2=20
 var3=siva
 var4=$((var3+1))
 declare -i var3=30 #it print the value
-
 echo "$var4"
 
 echo "$var1+$var2"
@@ -20,3 +19,13 @@ echo "count is $SUM1"
 
 SUM2=$((COUNT+1))
 echo "count is $SUM2"
+
+FRUITS=("Apple" "Banana" "papaya")
+
+echo "All Fruits: ${FRUITS[@]}"
+echo "First Fruit is: ${FRUITS[0]}"
+echo "second Fruit is: ${FRUITS(1)}"
+
+name="siva ram"
+echo "$nameTeppa"
+echo "${name}Teppa"
