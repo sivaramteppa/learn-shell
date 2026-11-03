@@ -8,7 +8,7 @@ echo "First variable of the script: $1"
 echo "script name is :$0"
 echo "Real path: $(realpath $0)"
 echo "Who is running the script: $USER"
-echo "Directory of the  current script: $pwd"
+echo "Directory of the  current script: $PWD"
 echo "Home directory of the current user: $HOME"
 echo "PID of the current script is :$$"
 sleep 10&
