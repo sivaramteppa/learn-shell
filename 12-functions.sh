@@ -24,4 +24,7 @@ validate $? "nginx installation"
 dnf install mysql -y
 validate $? "mysql installation"
 
+dnf install psstgres -y 
+validate $? "postgress installation"
+
 echo "still proceeding"
