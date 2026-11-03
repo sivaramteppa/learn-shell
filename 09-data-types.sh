@@ -13,4 +13,4 @@ echo "$(($var1+$var2+$var3))"
 declare -i COUNT=5 # I am declaring as integer
 SUM=COUNT+1
  
- echo "count is $SUM"
+ echo "count is ${SUM}"
