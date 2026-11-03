@@ -9,3 +9,8 @@ for i in {1..10..2}
 do
     echo "Odd Number: $i"
 done
+
+for i in {1..10..1}
+do
+    echo "Even Number: $i"
+done
