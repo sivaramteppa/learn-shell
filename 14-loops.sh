@@ -14,3 +14,8 @@ for i in {1..10..1}
 do
     echo "Even Number: $i"
 done
+
+for (( i=1; i<=5; i++ ))
+do
+    echo "Counter: $i"
+done
